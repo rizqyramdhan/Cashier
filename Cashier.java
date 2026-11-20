@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -296,10 +295,5 @@ public class Cashier {
     private static String spasi(String harga, int qty, String subtotal) {
         int panjang = ("  " + qty + " x " + harga).length();
         return " ".repeat(Math.max(1, 32 - panjang - subtotal.length()));
-=======
-public class cashier {
-    public static void main(String[] args) {
-        
->>>>>>> fcc9bc26a190733e585685a5e1b453e75b7c92c4
     }
 }
