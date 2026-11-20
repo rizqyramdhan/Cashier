@@ -296,4 +296,8 @@ public class Cashier {
         int panjang = ("  " + qty + " x " + harga).length();
         return " ".repeat(Math.max(1, 32 - panjang - subtotal.length()));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 560e583e0aafb3cc063d9a10dd1198bd92a7c8e0
