@@ -322,7 +322,6 @@ public class Cashier extends javax.swing.JFrame {
         for (int i = 0; i < daftarsubtotal.size(); i++) {
             total = total + daftarsubtotal.get(i);
         }
-        totalbayar.setText("Rp " + total);
         
         String[] data = new String[barang.size()];
         for (int i = 0; i < barang.size(); i++) {
