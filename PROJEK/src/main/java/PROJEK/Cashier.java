@@ -329,8 +329,7 @@ public class Cashier extends javax.swing.JFrame {
         }
         daftarbarang.setListData(data);
         
-        namabarang.setText("");
-        hargabarang.setText("");
+       
         jumlah = 1;
         jumlahbarang.setText("" + jumlah);
     }//GEN-LAST:event_tambahbarangActionPerformed
